@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Series Helpers... Should combine multiple commands into one command 1`] = `"echo hey && echo hi && echo there"`;
+
+exports[`Test Series Helpers... Should combine multiple nps commands into one command 1`] = `"nps test && nps lint.src && nps \\"lint.scripts --cache\\" && nps \\"build --fast\\""`;
