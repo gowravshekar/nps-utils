@@ -1,6 +1,6 @@
 {
-  "name": "@austonpramodh/nps-utils",
-  "version": "0.0.2",
+  "name": "@annoto/nps-utils",
+  "version": "1.0.0",
   "description": "Utilities for nps (npm-package-scripts)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,12 +20,12 @@
   "author": "Auston Pramodh Barboza <austonpramodh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "any-shell-escape": "0.1.1",
-    "concurrently": "5.3.0",
-    "cpy-cli": "3.1.1",
-    "cross-env": "7.0.2",
-    "is-docker": "2.1.1",
-    "rimraf": "3.0.2"
+    "any-shell-escape": "^0.1.1",
+    "concurrently": "^6.2.1",
+    "cpy-cli": "^3.1.1",
+    "is-docker": "^2.2.1",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
@@ -55,10 +55,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/austonpramodh/nps-utils.git"
+    "url": "https://github.com/genadis/nps-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/austonpramodh/nps-utils/issues"
+    "url": "https://github.com/genadis/nps-utils/issues"
   },
-  "homepage": "https://github.com/austonpramodh/nps-utils#readme"
+  "homepage": "https://github.com/genadis/nps-utils#readme"
 }

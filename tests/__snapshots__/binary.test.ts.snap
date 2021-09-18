@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Binary Helpers... Should get the path of a binary file 1`] = `"node_modules\\\\rimraf\\\\bin.js"`;
+exports[`Test Binary Helpers... Should get the path of a binary file 1`] = `"node_modules/rimraf/bin.js"`;
 
-exports[`Test Binary Helpers... Should get the runnable path of a binary file 1`] = `"node node_modules\\\\rimraf\\\\bin.js"`;
+exports[`Test Binary Helpers... Should get the runnable path of a binary file 1`] = `"node node_modules/rimraf/bin.js"`;
