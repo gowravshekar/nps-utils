@@ -8,6 +8,6 @@ import { runBin } from "./binary";
  *   learn more from http://npm.im/cross-env
  * @return {string} - the command with the cross-env binary
  */
-export function crossEnv(args: string) {
+export function crossEnv(args: string): string {
     return `${runBin("cross-env")} ${args}`;
 }
