@@ -11,10 +11,10 @@ module.exports = {
             default: 'eslint --fix "src/**/*.ts" --ignore-pattern node_modules/',
         },
         prepare: {
-            default: "npm run build",
+            default: "yarn start build",
         },
         prepublishOnly: {
-            default: "npm test && npm run lint",
+            default: "yarn test && yarn start lint",
         },
     },
     options: {
