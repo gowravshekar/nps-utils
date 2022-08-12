@@ -11,3 +11,5 @@ export * from "./copy";
 export * from "./isDocker";
 
 export * from "./concurrent";
+
+export * from "./crossEnv";
